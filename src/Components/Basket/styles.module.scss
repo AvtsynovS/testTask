@@ -1,0 +1,99 @@
+p {
+  color: #1c1c27;
+  font: bold 20px/24px 'Montserrat', sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 400px;
+  padding: 20px 30px 20px 20px;
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .photo {
+      width: 146px;
+      height: 136px;
+    }
+  }
+  .countPanel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    & .btn {
+      background-color: #ffce7f;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 17px;
+      padding: 8px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    .price {
+      margin-top: 12px;
+      color: #aaaaaa;
+      font-size: 15px;
+    }
+  }
+  .sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 150px;
+
+    .deleteBtn {
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .sumPrice {
+      font-weight: bold;
+    }
+  }
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  position: relative;
+  font-weight: bold;
+
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  & button {
+    min-width: 350px;
+    color: #fff;
+    background-color: #101010;
+    position: absolute;
+    top: 50px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    font: 17px/21px 'Montserrat', sans-serif;
+    cursor: pointer;
+  }
+}

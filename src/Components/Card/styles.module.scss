@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  width: 30%;
+}
+.img {
+  margin: 15px 65px 55px;
+  min-height: 235px;
+}
+.descriptoin {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 30px;
+}
+.descriptoin div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.descriptoin > div {
+  margin-bottom: 25px;
+}
+
+.descriptoin > div:last-child {
+  margin-bottom: 0;
+}
+
+.price {
+  color: #ffa542;
+}
+.rate {
+  display: flex;
+  align-items: center;
+  color: #838383;
+}
+.rate img {
+  margin-right: 10px;
+}
+.btn {
+  cursor: pointer;
+  min-width: 45px;
+  min-height: 45px;
+  background: none;
+  border: none;
+  font: bold 17px/21px 'Montserrat', sans-serif;
+}

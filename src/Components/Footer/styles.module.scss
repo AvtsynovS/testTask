@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px 0;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+}
+.footer div {
+  background-color: #fff;
+}
+.footerMenu div {
+  margin-bottom: 10px;
+}
+.footerMenu div:last-child {
+  margin-bottom: 30px;
+}
+.langueges {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.languege {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.languege:active {
+  color: #ffa542;
+  font-weight: bold;
+}
+.socialNetworks {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  min-width: 45px;
+  min-height: 45px;
+  background: none;
+  border: none;
+}

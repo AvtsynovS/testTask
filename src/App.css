@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1110px;
+  margin: 0 auto;
+  background-color: #eaeaea;
+  font: 17px/21px 'Montserrat', sans-serif;
+}
